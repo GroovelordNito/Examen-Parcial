@@ -1,0 +1,152 @@
+<html>
+<head>
+    <title> Arquitectura Web </title>
+    
+    <style type="text/css">
+        
+      
+    
+        .background-wrap  { 
+            position: fixed;
+            z-index: -1000;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+        }
+    
+        #video-bg-elem {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 100%;
+            min-width: 100%;
+        }
+    
+        .content {
+            position: absolute;
+            width: 100%;
+            min-height: 100%;
+            z-index: 1000;
+            background-color: rgba(175,175,175,0.1);
+        }
+        .content h1{
+            text-align: center;
+            font-size:100px;
+            text-transform: uppercase;
+            font-weight: 300;
+            color: #fff;
+            padding-top: 15%;
+            margin-bottom: 10px;
+            font-family: Bebas Neue, bold;
+        }
+        .content p {
+            text-align: center;
+            font-size: 18px;
+            letter-spacing: 1px;
+            color: #fff;
+            margin: 220px;
+            font-family: Montserrat Regular, sans-serif;
+        
+        }
+        
+        
+       
+        .logo img {
+            width: 230px;
+            height:auto;
+            float: left;
+        }
+        
+        .row {
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+        nav {
+            float: center;
+        }
+        
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        nav li {
+            display: inline-block;
+            margin-left:0  px;
+            padding-left: 70px;
+            padding-top: 20px;
+            
+        }
+        
+        nav a {
+            color: darkgrey;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: "Helvetica Neue";
+            font-size: 16px;
+        
+      
+    
+
+    </style>
+    </head>
+    <body> 
+         <header> 
+        
+           <div class="row">
+               <div class="logo">
+                   <img src="aquila.png"
+                        </div> </div>
+              
+        
+        </div>
+        
+         </header>
+             
+        <div class="background-wrap">  
+             <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+                 <source src="space.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+        <div class="container">
+             <nav>
+                 <ul>
+                 <li><a href="#">Entry#2231//:      Do not go gentle into the good night, rage against the dying of the light</a></li>
+                 </ul>
+            
+            </nav>
+        </div>
+        
+        <div class="content">
+            <h1>INTRODUCCIÓN AL ENTORNO GRÁFICO</h1>
+            <p>Exploración de la colmena digital</p>
+             
+            <audio controls>
+                 <source src="Music.mp3" type="audio/mpeg">
+             
+             </audio>
+            
+            
+            <p>Sugirió Einstein, en su momento, la irracionalidad de juzgar a un pez únicamente por su habilidad para trepar árboles. Esta citación se ha utilizado en millares de ocasiones bajo la demagogia de lo sencillo que es acudir al "Nadie es perfecto". Si bien es cierto que nadie puede abarcarlo todo, la máxima expresión de perfección que el hombre jamás encontrará en vida yace en nunca dejar de intentarlo. Ahí está nuestra fuerza, en gritar con furia contra el sino y el espacio, pugnando por alcanzar las estrellas.<br/><br/><br/>El diseñador actual no es un dibujante, es un creador. Como tal, es responsabilidad suya para con su trabajo encontrar nuevas praxis. En exactamente eso se basa el desarrollo de esta asignatura. Es una introducción al "backstage" del mundo digital, donde lo fundamental, más que memorizar procesos, fórmulas y algoritmos es comenzar a entender los fundamentos que construyen los entornos digitales en los que nos movemos diariamente. Desde los primeros días todo el material impartido ha sido para darnos opciones, que adquiramos material para expandir la matriz sobre la que se sustenta nuestra capacidad como diseñadores. El progreso realizado hasta ahora puede agruparse en dos secciones, las introducciones a la arquitectura en 32 bits y en 64 bits.<p/><img src="Images/Einstein.gif" width="30%" height="30%" alt="" align="center" margin-top="30px"/>
+          
+            
+           <br/><br/><br/><br/><br/><br/> <p><b>32 BITS</b><br/><br/><br/> El entorno de desarollo en 32 bits ha sido presentado de la mano de dos herramientas principales, HTML y CSS. Hemos realizado una actividad llamada "Hablantín" con estas herramientas cuyo objetivo era hacernos ver de primera mano las interacciones entre contenido audiovisual y la maquetación que permite moldear sus usos, así como entender los fundamentos del tratamiento de imagen y audio en un nivel básico. Lejos de centrarnos en el aprendizaje concreto y tedioso de cada uno de los procedimientos posibles, la realización del hablantín ha traído a nuestras mentes el entendimiento que nos acerca a comprender los pilares que sostienen a los entornos gráficos.</p><p/><img src="Images/32.gif" width="30%" height="30%" alt="" align="center"/>
+            
+            <p><b>64 BITS</b><br/><br/><br/>Tras habernos quedado con ganas de más, hemos sido introducidos a la siguiente escala exponencial en el desarrollo de entornos gráficos, si bien esta vez más orientados al apartado sonoro. Se produce un aumento tanto de la complejidad como la capacidad de interacción con la introducción al programa MAX/msp. Se abandona la conceptualización clásica del código en líneas para zambullirnos en un ambiente de desarrollo bidimensional, que nos permite manipular en tiempo real los atributos y características del material que seleccionamos. Con este último paso dado hasta el momento, con un mínimo de consciencia, nos adentraremos de forma paulatina en el corazón del desarrollo de entornos.</p> <p/><img src="Images/asdf.gif" width="30%" height="30%" alt="" align="center"/>
+            
+            <p>La conclusión de la reflexión es sencilla, esta asignatura no es sino un paseo guiado por un parque natural, en el cual el guía nos enseña lo suficiente para, de querer, poder explorar cada paisaje que lo compone en mayor profundidad. De nuestra propioa voluntad dependerá usar estos estímulos para desarrollarnos y alcanzar nuevas distancias, perdidas en el espacio.</p>
+            
+            <p>GRACIAS POR SU ATENCIÓN</p><p/><img src="Images/tracer.gif" width="60%" height="50%" alt="" align="center"/>
+            
+            
+        
+        </div>
+        
+      
+    </body>
+</html>
